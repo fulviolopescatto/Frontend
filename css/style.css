@@ -1,0 +1,237 @@
+@font-face {
+    font-family: 'Pacifico'; 
+    src: url('fonts/Pacifico.ttf'); 
+	}
+	@font-face {
+    font-family: 'HelveticaNeue'; 
+    src: url('fonts/Helvetica_Neue.ttf'); 
+	}
+	@font-face {
+    font-family: 'MyriadPro'; 
+    src: url('fonts/MyriadPro-Semibold.ttf'); 
+	}
+	
+	h1 { font-family: 'Pacifico' !important;}
+	
+	h2, h3, h4, h5 {
+	font-family: 'MyriadPro' !important;
+	}
+	.appos {
+	  border-radius: 100% !important;
+	  padding: 18px !important;
+	  background-color: rgba(0, 0, 0, 0.3) !important;
+	}
+	
+	.appos:hover {
+	  background-color: rgba(0, 0, 0, 1) !important;
+	  transition: ease-out;
+		
+	}
+	.appos > i.icon {
+	  font-size: 1.3em !important ;
+	}
+	
+	.ui.button>.icon {
+	  margin: 0;
+	}
+	
+	.masthead {
+	 background-image:url(../gfx/pattern.png) !important;
+	 background-color: #3498db !important;
+	 text-shadow:0px 4px rgba(0, 0, 0, 0.2);
+	}
+	
+	.head-image {
+	  position:absolute;
+	  bottom:0;
+	  right:10vw;
+	}
+	
+	p {
+	  color:#848484 !important;
+	  font-family: 'HelveticaNeue'!important;
+	}
+	
+	.footer {
+	  background-color: #e3e3e3 !important;
+	}
+		
+	.socialbutton {
+	  color: white !important;
+	  font-size:15px !important;
+	}
+	
+	.socialbutton:hover {
+	  background-color: #3498db !important;
+	}
+	
+    .hidden.menu {
+      display: none;
+    }
+    .owl-dots {
+	text-align:center;
+	margin-top:16px;
+	}
+	.owl-dot {
+     width: 14px;
+     height: 14px;
+     border-radius: 100%;
+     border: 2px solid #3498db;
+     background: #fff;
+     margin-right: 8px;
+     display: inline-block;  /*for making them horizontal, if you want vertical then you can use- 	display: block*/
+	}
+	.owl-dot.active {
+     background: #3498db;
+	}
+    .masthead.segment {
+      min-height: 700px;
+      padding: 1em 0em;
+    }
+    .masthead .logo.item img {
+      margin-right: 1em;
+    }
+    .masthead .ui.menu .ui.button {
+      margin-left: 0.5em;
+    }
+	.greybkg {
+	  background-color: #e7e7e7 !important;
+	}
+	.features {
+	font-size:1.7em;
+	}
+    .masthead h1.ui.header {
+      margin-top: 3em;
+      margin-bottom: 0em;
+      font-size: 4em;
+      font-weight: normal;
+    }
+	
+    .masthead h2 {
+      font-size: 1.7em;
+      font-weight: normal;
+    }
+    .ui.vertical.stripe {
+      padding: 6em 0em;
+    }
+    .ui.vertical.stripe h3 {
+      font-size: 2em;
+    }
+    .ui.vertical.stripe .button + h3,
+    .ui.vertical.stripe p + h3 {
+      margin-top: 3em;
+    }
+    .ui.vertical.stripe .floated.image {
+      clear: both;
+    }
+    .ui.vertical.stripe p {
+      font-size: 1.33em;
+    }
+    .ui.vertical.stripe .horizontal.divider {
+      margin: 3em 0em;
+    }
+
+    .quote.stripe.segment {
+      padding: 0em;
+    }
+    .quote.stripe.segment .grid .column {
+      padding-top: 5em;
+      padding-bottom: 5em;
+    }
+
+    .footer.segment {
+      padding: 3em 0em;
+    }
+
+    .secondary.pointing.menu .toc.item {
+      display: none;
+    }
+	.ui.vertical.segment {
+	  border-bottom: none;
+	}
+	tr {
+	  background-color: #FFFFFF; border-bottom:1px solid #c2c2c2; 
+	}
+	table {
+	  width: 80%;
+	  border-collapse: separate;
+	  border-spacing: 5px 0px;
+	  margin-bottom: 1em;
+	}
+	table th,
+	table td {
+	  padding:  1em;
+	  border-bottom: 1px solid #e7e7e7;
+	  border-right: 1px solid #fff;
+	  white-space: pre;
+	}
+	table thead th,
+	table tbody td {
+	  text-align: center;
+	}
+	table thead {
+		font-family:'MyriadPro';
+	  color: black;	  
+	}
+	table thead th {
+	  padding: 1em;
+	}
+	.titulo-tabela{ font-size:1.6em;  color:#fff; background-color:#3498db; font-weight:bold;}
+	.preco-tabela{  font-size:3em;}
+	.spacetop{ padding-top:2vh !important;}
+	.ui.celled.grid>.column:not(.row), .ui.celled.grid>.row>.column { padding:2em !important;}
+	.quotes { 
+	font-style:italic !important; 
+	color:#848484 !important; 
+	font-weight:normal !important; 
+	font-family:'HelveticaNeue' !important; 
+	}
+	.authorq{ 
+	font-weight:bold !important; color:black !important;}
+	.rwd-break { display:none;}
+
+	@media only screen and (min-width:702px) and (max-width:1300px) {
+ 	.head-image {
+	  width: 40%;
+	 }
+	  
+	.rwd-break { 
+	  display: inline-block !important;
+	}
+	  
+    .masthead.segment {
+      min-height: 600px ;
+    }
+    }
+	
+	@media only screen and (min-width:11px) and (max-width:701px) {
+      .ui.fixed.menu {
+        display: none !important;
+      }
+      .secondary.pointing.menu .item,
+      .secondary.pointing.menu .menu {
+        display: none;
+      }
+      .secondary.pointing.menu .toc.item {
+        display: block;
+      }
+      .masthead.segment {
+        min-height: 100% !important;
+		
+      }
+	  
+      .masthead h1.ui.header {
+        font-size: 4em;
+        margin-top: 1em;
+		
+      }
+      .masthead h2 {
+        margin-top: 1em;
+        font-size: 2em;
+      }
+	  .head-image {
+	    width: 60%;
+	  }
+	  .rwd-break { display: inline-block !important;}
+    }
+	
